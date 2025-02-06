@@ -3,7 +3,7 @@ class Shape:
     def __init__(self):
         self.i = 0
 
-    def Area(self):
+    def area(self):
         print(self.i)
 
 class Square(Shape):
@@ -12,12 +12,12 @@ class Square(Shape):
         self.i = length*length
 
 
-##creates a object of parent classes
+
 a1 = Shape()
-a1.Area()
-##creates a object of child classes
+a1.area()
+
 a2 = Square(5)
-a2.Area()
+a2.area()
 
 
 

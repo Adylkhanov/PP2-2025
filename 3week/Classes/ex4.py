@@ -8,8 +8,8 @@ class Points:
     def display(self):
         print("0x:" + self.x + "0y:" + self.y)
     def move(self, x1, x2):
-        self.x = x1
-        self.y = x2
+        self.x += x1
+        self.y += x2
     def dist(self,a1):
         self.distancex =abs(self.x - a1.x)
         self.distancey= abs(self.y - a1.y)
